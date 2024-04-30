@@ -1,8 +1,4 @@
-from Defact_detaction.logger import logging
-from Defact_detaction.exception import AppException
-import sys
+from Defact_detaction.pipeline.training_pipeline import TrainPipeline
 
-try:
-    a=3/"s"
-except Exception as e:
-    raise AppException(e,sys)
+obj = TrainPipeline()
+obj.run_pipeline()

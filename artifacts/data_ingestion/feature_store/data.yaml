@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['BLACK SPOT', 'CELL SHORT', 'CORRECT', 'CRACK', 'DEAD CELL', 'MISALIGNMENT']
+
+roboflow:
+  workspace: el-image-defect-detection
+  project: el-image-defect-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/el-image-defect-detection/el-image-defect-detection/dataset/1
